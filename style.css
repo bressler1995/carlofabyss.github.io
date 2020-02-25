@@ -20,7 +20,18 @@ p {
     font-weight: 300;
 }
 
-a {
+ul {
+    list-style: none;
+    padding:0;
+    width:300px;
+}
+
+li {
+    width:300px;
+    margin-bottom:5px;
+}
+
+ul li a {
     display: block;
     width:100%;
     float:left;
